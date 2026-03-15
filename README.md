@@ -13,9 +13,9 @@ The model is a CNN that, after some tries, is made of:
 - A first Convolutional layer that increase the number of channels to 32, followed by a BatchNormalization and Relu activation;
 - a first Pool to reduce images to 16x16;
 - A second Convolutional layer that increase the number of channels to 64, followed by a BatchNormalization and Relu activation;
-- a first Pool to reduce images to 8x8;
-- A first Convolutional layer that increase the number of channels to 128, followed by a BatchNormalization and Relu activation;
-- a first Pool to reduce images to 4x4;
+- a second Pool to reduce images to 8x8;
+- A third Convolutional layer that increase the number of channels to 128, followed by a BatchNormalization and Relu activation;
+- a third Pool to reduce images to 4x4;
 - a Dropout and a linear layer.
 
 The number of parameters of this model is approximately 94144.
