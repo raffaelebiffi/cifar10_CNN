@@ -4,7 +4,7 @@
 This project aims to train a CNN model to obtained the correct classification for 32x32 pixel images of 10 types of objects.
 
 # Dataset:
-CIFAR10: 60000 32x32 pixel images of the followed classes (10000 for every class):
+CIFAR10: 60000 32x32 pixel images of the followed classes (6000 for every class):
 airplane; automobile; bird; cat; deer; dog; frog; horse; ship; truck.
 
 # Methods:
